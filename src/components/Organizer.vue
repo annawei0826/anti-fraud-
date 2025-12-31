@@ -1,3 +1,16 @@
+<script setup>
+import Title from '../components/Title.vue'
+import useClientConfig from '../composables/useClientConfig'
+
+const { isDev } = useClientConfig()
+const props = defineProps({
+  organizer: {
+    type: Array,
+    required: true
+  },
+});
+</script>
+
 <template>
   <div
     id="corporate-sponsor"
@@ -25,7 +38,7 @@
                     target="_blank"
                   >
                     <img
-                      class="absolute h-full w-full object-contain"
+                      class="absolute h-full w-full object-contain logo_img"
                       :src="`${isDev ? '' : '.'}${organizer.image}`"
                       :alt="organizer.title"
                       loading="lazy"
@@ -49,15 +62,8 @@
   </div>
 </template>
 
-<script setup>
-import Title from '../components/Title.vue'
-import useClientConfig from '../composables/useClientConfig'
-
-const { isDev } = useClientConfig()
-const props = defineProps({
-  organizer: {
-    type: Array,
-    required: true
-  },
-})
-</script>
+<style scoped>
+  .logo_img {
+    transform: scale(1.1);
+  }
+</style>>
