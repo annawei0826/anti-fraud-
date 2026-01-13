@@ -1,20 +1,15 @@
 <template>
   <div class="space-y-4">
-    <h3 class="text-xl sm:text-2xl text-primary font-medium">近8成民意盼詐騙罰則再加重 嚴懲社群平台</h3>
-    <p>社群平台已成詐騙溫床，使無數民眾受害，據數發部統計，台灣詐騙廣告逾九成來自Meta（臉書母公司）。調查中，逾七成受試者認為，政府針對未依法在二十四小時內下架詐騙廣告的業者，應提高開罰強度；同時也期待平台不只下架廣告，更應強制將涉及詐騙的帳號、社團移除。</p>
-    <p>刑事局一六五反詐騙諮詢專線祕書莊明雄透露，過去執法單位向Meta通報詐騙廣告，多數未能在二十四小時內下架，二○二五年數發部因應《詐欺犯罪危害防制條例》推出的子法上路，已有法源可以開罰業者，重點在於能否落實執法。</p>
+    <h3 class="text-xl sm:text-2xl text-primary font-medium">七成不知有多道註記防線</h3>
+    <h3 class="text-xl sm:text-2xl text-primary font-medium">過半長者不願申請  恐成詐團目標</h3>
+    <p>目前各縣市地政事務所可供民眾申請「地籍異動即時通」服務，當名下不動產有申－請買賣、贈與等情形時，會發送通知給指定聯絡人，由對方協助把關地產異動情形。這套防詐機制已經推動九年，調查中仍只有三四％民眾「知道」這項措施，更僅三．六％受試者已經申請，有待加強推廣。</p>
+    <p>另外，地政事務所也可供房地產所有權人辦理「預告登記」，當房地產有移轉、設定抵押權和贈與等情形，必須經過指定對象同意才能處理。這項措施，同樣只有三八％民眾「知道」，已申請比率不到二％。</p>
+    <p>除了不動產外，詐團經常指示受害人解除定期存款、保單或轉出大額款項。其實全國有約六成銀行，已開放辦理定存註記，民眾可事前設定聯絡人，未來要提前解除定存時，銀行會協助通知聯絡人把關；同樣地，多數銀行也開放讓存戶自行設定金額，未來進行大額轉帳時，同步通知指定聯絡人。</p>
+    <p>目前國內十五家壽險公司，也都開放民眾進行保單註記，未來當要保人申請保單解約、部分提領，或保單借款超出一定金額，業者也會通知指定聯絡人，增加一道防線由於這三項措施，銀行及壽險公司推動上路不久，調查中分別只有二到三成民眾「知道」這些防詐機制；但得知後，有意願進行定存、保單註記，或設定大額轉帳通知的民眾，都分別超過七成，民意接受度高。</p>
+    <p>值得提醒的是，從地籍異動即時通、定存及保單註記到大額轉帳通知，交叉分析年齡結果均顯示，七十歲以上民眾願意辦理的比率明顯偏低，分別較整體數字少二十至三十個百分點。偏偏高齡者正是詐團鎖定進行房產及大筆資產詐騙的頭號目標，財損金額也在所有年齡層居冠，未來如何加強對長者的宣傳推廣，仍有精進空間。</p>
+    <p>這份獨家防詐調查，呈現民眾實際接觸詐騙訊息的情況，以及對各項防詐自保措施的接受度，可做為政府更務實調整政策、民間機構更積極推動防詐機制的重要參考依據。</p>
     <br>
     <ChartGroup :sliderData="chartData" />
-    <br>
-    <h3 class="text-xl sm:text-2xl text-primary font-medium">政府宣傳積極、成績待加強 新法上路 回應民意</h3>
-    <p>他也認為，Meta、Google等平台業者，應該自主建立AI偵測機制，從源頭阻絕詐騙廣告，善盡企業社會責任，「而不是讓各國政府耗費大量資源，處理在平台受害的案件。」</p>
-    <p>回頭看民眾端，個人也可以透過幾道簡單手續，為自己設下防線。</p>
-    <p>目前地政事務所開放民眾辦理不動產預告登記，當未來房屋要移轉或抵押時，必須經過指定請求權人的同意才能辦理。儘管有高達八三％受試者不知道這項措施，但得知後有超過七四％願意辦理，作為防詐自保手段。</p>
-    <h3 class="text-xl sm:text-2xl text-primary font-medium">預防房地產、定存遭騙轉移 多數贊成異動通知第三人</h3>
-    <p>值得注意的是，現行民眾在解除定存，或一次匯出大筆款項時，並無通知第三人的機制。調查詢問，是否贊成未來開放民眾自由註記，解除定存或匯出逾一定金額款項時，須通知指定聯絡人，結果顯示，兩項措施均有近八成受試者力挺，當中更分別有逾九成願意親自辦理。</p>
-    <p>交叉比對來看，會發現學歷愈高、收入愈高者，在處理個人資產時，「不贊成」須通知第三人的比率愈高。</p>
-    <p>此外，目前各銀行礙於《個人資料保護法》限制，無法在民眾個人帳戶涉及詐騙或異常交易時，同步將資訊傳給其他開戶銀行，達到預警作用。但在調查中，高達八二．八％受試者，表明願意犧牲部分個資，授權銀行通知其他金融機構，不贊成者僅占十二．一％。</p>
-    <p>這項調查，反映民眾接觸詐騙的現況，以及對各項防詐機制的態度，可作為政策參考依據，有賴政府拿出具體行動，持續滾動修正。</p>
   </div>
 </template>
 
@@ -26,139 +21,9 @@ const { isMobile } = useClientSize();
 
 const chartData = [
   {
-    title: '請問您認為政府應該更加強哪些方面作為，才能有效防堵詐騙？',
-    subtitle: '(複選)',
-    options: {
-      tooltip: {
-        trigger: 'axis',
-        axisPointer: { type: 'shadow' },
-        confine: true,
-        formatter: (par) => {
-          return par.reduce((prev, current) => {
-            if (current.seriesName === 'labelName') return prev;
-            return `${prev}<strong class="text-base" style="color: ${current.color}">${current.value}%</strong>`
-          }, `<p class="block text-sm tracking-normal break-all whitespace-pre-wrap">${par[0].axisValue.replace('\n', '')}</p>`)
-        }
-      },
-      xAxis: { type: 'value', },
-      yAxis: {
-        type: 'category',
-        inverse: true,
-        axisLabel: {"fontFamily": "Noto Sans TC"},
-        data: [
-          '提高詐騙相關刑法或行政罰鍰',
-          '加快追查及攔阻金流的效率',
-          '強化與金融機構合作',
-          '加快調閱詐騙帳戶等資料的速度',
-          '加強宣導防詐觀念',
-          '強化與國際數位平台溝通合作',
-          '其他(強化與電信業者合作、防止公務\n機關個資外洩...等)',
-          '無明確意見',
-        ],
-        axisLabel: { show: false },
-      },
-      grid: { left: 10, top: 0, right: 10, bottom: 0 },
-      series: [
-        {
-          name: 'labelName', // 偽yAxis label
-          type: 'bar',
-          data: [0, 0, 0, 0, 0, 0, 0, 0],
-          barWidth: 0,
-          label: {
-            show: true,
-            position: [10, -20],
-            formatter: (params) => isMobile.value ? params.name : params.name.replace('\n', ''),
-            color: '#7f7f7f',
-            fontWeight: 'bold',
-            fontSize: 16,
-          },
-          itemStyle: { color: 'transparent' },
-          emphasis: { disabled: true },
-          legendHoverLink: false,
-        },
-        {
-          name: '', type: 'bar',
-          label: {
-            show: true,
-            formatter: params => (params.value > 5 ? params.value + '%' : ''),
-          },
-          emphasis: { focus: 'series' },
-          barWidth: 45,
-          data: [{ value: 79.7, itemStyle: {color: '#fc8452'} }, 62.1, 58.8, 57.8, 54.2, 52, 1.1, 2.4]
-        },
-      ]
-    }
-  },
-  {
-    title: '近幾年社群平台(如Facebook、Line等)詐騙廣告和訊息猖獗，<br>您認為政府單位和社群平台應該加強哪些作為？',
-    subtitle: '(複選)',
-    options: {
-      tooltip: {
-        trigger: 'axis',
-        axisPointer: { type: 'shadow' },
-        confine: true,
-        formatter: (par) => {
-          return par.reduce((prev, current) => {
-            if (current.seriesName === 'labelName') return prev;
-            return `${prev}<strong class="text-base" style="color: ${current.color}">${current.value}%</strong>`
-          }, `<p class="block text-sm tracking-normal break-all whitespace-pre-wrap">${par[0].axisValue.replace('\n', '')}</p>`)
-        }
-      },
-      xAxis: { type: 'value', },
-      yAxis: {
-        type: 'category',
-        inverse: true,
-        axisLabel: {"fontFamily": "Noto Sans TC"},
-        data: [
-          '政府單位針對24小時內未下架詐騙廣告\n的業者，應更強力開罰',
-          '社群網站應強制將涉及詐騙的帳號、粉\n絲專頁及社團移除',
-          '社群網站應加強廣告投放實名制審核',
-          '政府與社群網站建立快速溝通管道，更\n及時通報涉及詐騙訊息',
-          '針對未落實規定的社群網站，政府單位\n應限制其部分業務',
-          '社群網站應加強名人或企業投資廣告\n查核',
-          '無明確意見',
-        ],
-        axisLabel: { show: false },
-      },
-      grid: { left: 10, top: 0, right: 10, bottom: 0 },
-      series: [
-        {
-          name: 'labelName', // 偽yAxis label
-          type: 'bar',
-          data: [0, 0, 0, 0, 0, 0, 0],
-          barWidth: 0,
-          label: {
-            show: true,
-            position: [10, isMobile.value ? -25 : -20],
-            formatter: (params) => isMobile.value ? params.name : params.name.replace('\n', ''),
-            color: '#7f7f7f',
-            fontWeight: 'bold',
-            fontSize: 16,
-            textBorderColor: '#ffffff',
-            textBorderWidth: 2,
-          },
-          itemStyle: { color: 'transparent' },
-          emphasis: { disabled: true },
-          legendHoverLink: false,
-        },
-        {
-          name: '', type: 'bar',
-          label: {
-            show: true,
-            formatter: params => (params.value > 5 ? params.value + '%' : ''),
-          },
-          emphasis: { focus: 'series' },
-          barWidth: 45,
-          data: [
-            { value: 74, x: 5, itemStyle: {color: '#fc8452'} }, 73.7, 69.1, 67.7, 62.1, 60, 3.4]
-        },
-      ]
-    }
-  },
-  {
-    title: '目前地政事務所開放民眾替家人的不動產辦理「預告登記」，未來不動產要移轉、抵押等，都必須經過指定的「請求權人」同意才能動作',
+    title: '各縣市地政事務所可供民眾申請「地籍異動即時通」，當名下不動產有申請買賣、贈與等12種情形時，可透過簡訊或電子郵件通知指定聯絡人，請問您知不知道這項措施？',
     subtitle: '',
-    after: '※儘管逾8成受試者不知道這項服務，但在得知後有近75%願意辦理。',
+    after: '',
     options: {
       tooltip: {
         trigger: 'item',
@@ -170,8 +35,8 @@ const chartData = [
       },
       title: [
         {
-          text: '請問您知不知道這項措施？',
-          left: isMobile.value ? '50%' : '25%',
+          text: '',
+          left: '50%',
           top: '2%',
           textAlign: 'center',
           textStyle: {
@@ -180,23 +45,62 @@ const chartData = [
             fontWeight: '500',
           },
         },
+      ],
+      series: [
         {
-          text: '若您有需要時, 願不願意這樣做?',
-          left: isMobile.value ? '50%' : '75%',
-          top: isMobile.value ? '52%' : '2%',
+          type: 'pie',
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
+          itemStyle: {
+            borderRadius: 5,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          label: {
+            show: true,
+            formatter: '{b}\n{c}%',
+            fontWeight: '500',
+            fontSize: 15,
+            position: 'outside',
+          },
+          emphasis: {label: { show: true }},
+          data: [
+            { value: 34.2, name: '知道', itemStyle: { color: '#5470c6' }},
+            { value: 65.8, name: '不知道', itemStyle: { color: '#91cc75' }},
+          ]
+        },
+      ],
+    }
+  },
+  {
+    title: '承上題，若有需求，請問您願不願意申請？',
+    subtitle: '',
+    after: '逾70歲長者願意申請比率僅46.5%',
+    options: {
+      tooltip: {
+        trigger: 'item',
+        formatter: (par) => {
+          const { name, value } = par.data
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
+        }
+      },
+      title: [
+        {
+          text: '',
+          left: '50%',
+          top: '2%',
           textAlign: 'center',
           textStyle: {
             color: '#505050',
             fontFamily: 'Noto Sans TC',
             fontWeight: '500',
           },
-        }
+        },
       ],
       series: [
         {
           type: 'pie',
-          radius: isMobile.value ? ['25%', '50%'] : ['35%', '60%'],
-          center: isMobile.value ? ['50%', '25%'] : ['25%', '50%'],
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
@@ -211,201 +115,50 @@ const chartData = [
           },
           emphasis: {label: { show: true }},
           data: [
-            { value: 17, name: '知道', itemStyle: { color: '#5470c6' }},
-            { value: 83, name: '不知道', itemStyle: { color: '#91cc75' }},
+            { value: 3.6, name: '已經申請', itemStyle: { color: '#5470c6' }},
+            { value: 60.6, name: '願意申請', itemStyle: { color: '#91cc75' }},
+            { value: 29.3, name: '不願意申請', itemStyle: { color: '#fc8452' }},
+            { value: 6.4, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
           ]
         },
-        {
-          type: 'pie',
-          radius: isMobile.value ? ['25%', '50%'] : ['35%', '60%'],
-          center: isMobile.value ? ['50%', '75%'] : ['75%', '50%'],
-          itemStyle: {
-            borderRadius: 5,
-            borderColor: '#fff',
-            borderWidth: 2
-          },
-          label: {
-            show: true,
-            formatter: '{b}\n{c}%',
-            fontWeight: '500',
-            fontSize: 15,
-            position: 'outside',
-          },
-          data: [
-            { value: 74.8, name: '願意', itemStyle: { color: '#5470c6' }},
-            { value: 18.5, name: '不願意', itemStyle: { color: '#91cc75' }},
-            { value: 6.7, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
-          ]
-        }
       ],
     }
   },
   {
-    title: '請問您贊不贊成民眾在購買定期存款單時，可自行選擇註記，當解除定存時，銀行須通知指定聯絡人？',
-    subtitle: '',
-    after: '※交叉分析發現，學歷愈高、收入愈高，「不贊成」比率愈高。其中，研究所學歷者有28.7％表示不贊成，高於整體約12個百分點。',
-    options: {
-      tooltip: {
-        trigger: 'item',
-        formatter: (par) => {
-          const { name, value } = par.data
-          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
-          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
-        }
-      },
-      title: {
-        text: '若您有需要時, 願不願意這樣做?',
-        left: isMobile.value ? '50%' : '75%',
-        top: isMobile.value ? '52%' : '2%',
-        textAlign: 'center',
-        textStyle: {
-          color: '#505050',
-          fontFamily: 'Noto Sans TC',
-          fontWeight: '500',
-        },
-      },
-      series: [
-        {
-          type: 'pie',
-          radius: isMobile.value ? ['25%', '50%'] : ['35%', '60%'],
-          center: isMobile.value ? ['50%', '25%'] : ['25%', '50%'],
-          itemStyle: {
-            borderRadius: 5,
-            borderColor: '#fff',
-            borderWidth: 2
-          },
-          label: {
-            show: true,
-            formatter: '{b}\n{c}%',
-            fontWeight: '500',
-            fontSize: 15,
-            position: 'outside',
-          },
-          emphasis: {label: { show: true }},
-          data: [
-            { value: 78.9, name: '贊成', itemStyle: { color: '#5470c6' }},
-            { value: 16.6, name: '不贊成', itemStyle: { color: '#91cc75' }},
-            { value: 4.5, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
-          ]
-        },
-        {
-          type: 'pie',
-          radius: isMobile.value ? ['25%', '50%'] : ['35%', '60%'],
-          center: isMobile.value ? ['50%', '75%'] : ['75%', '50%'],
-          itemStyle: {
-            borderRadius: 5,
-            borderColor: '#fff',
-            borderWidth: 2
-          },
-          label: {
-            show: true,
-            formatter: '{b}\n{c}%',
-            fontWeight: '500',
-            fontSize: 15,
-            position: 'outside',
-          },
-          data: [
-            { value: 91.2, name: '願意', itemStyle: { color: '#5470c6' }},
-            { value: 6.2, name: '不願意', itemStyle: { color: '#91cc75' }},
-            { value: 2.7, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
-          ]
-        }
-      ],
-    }
-  },
-  {
-    title: '請問您贊不贊成民眾在開立活儲帳戶時，可自行選擇註記，往後匯出超過自己設定金額時，銀行須通知指定聯絡人？',
-    subtitle: '',
-    after: '※交叉分析發現，學歷愈高、收入愈高，「不贊成」比率愈高。其中，研究所學歷者，有28.9％表示不贊成，年薪逾百萬者則有多達30.7％不贊成。',
-    options: {
-      tooltip: {
-        trigger: 'item',
-        formatter: (par) => {
-          const { name, value } = par.data
-          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
-          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
-        }
-      },
-      title: {
-        text: '若您有需要時, 願不願意這樣做?',
-        left: isMobile.value ? '50%' : '75%',
-        top: isMobile.value ? '52%' : '2%',
-        textAlign: 'center',
-        textStyle: {
-          color: '#505050',
-          fontFamily: 'Noto Sans TC',
-          fontWeight: '500',
-        },
-      },
-      series: [
-        {
-          type: 'pie',
-          radius: isMobile.value ? ['25%', '50%'] : ['35%', '60%'],
-          center: isMobile.value ? ['50%', '25%'] : ['25%', '50%'],
-          itemStyle: {
-            borderRadius: 5,
-            borderColor: '#fff',
-            borderWidth: 2
-          },
-          label: {
-            show: true,
-            formatter: '{b}\n{c}%',
-            fontWeight: '500',
-            fontSize: 15,
-            position: 'outside',
-          },
-          emphasis: {label: { show: true }},
-          data: [
-            { value: 79.4, name: '贊成', itemStyle: { color: '#5470c6' }},
-            { value: 17.5, name: '不贊成', itemStyle: { color: '#91cc75' }},
-            { value: 3.1, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
-          ]
-        },
-        {
-          type: 'pie',
-          radius: isMobile.value ? ['25%', '50%'] : ['35%', '60%'],
-          center: isMobile.value ? ['50%', '75%'] : ['75%', '50%'],
-          itemStyle: {
-            borderRadius: 5,
-            borderColor: '#fff',
-            borderWidth: 2
-          },
-          label: {
-            show: true,
-            formatter: '{b}\n{c}%',
-            fontWeight: '500',
-            fontSize: 15,
-            position: 'outside',
-          },
-          data: [
-            { value: 92.6, name: '願意', itemStyle: { color: '#5470c6' }},
-            { value: 5.5, name: '不願意', itemStyle: { color: '#91cc75' }},
-            { value: 1.9, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
-          ]
-        }
-      ],
-    }
-  },
-  {
-    title: '目前各家銀行單日提款上限是以日期計算，您贊不贊成改以間隔24小時為計算時間？',
+    title: '各縣市地政事務所可供房地產所有權人辦理「預告登記」，當房地產要移轉、設定抵押權、贈與或信託等，都必須經指定對象「同意」才能處理，請問您知不知道這項措施？',
     subtitle: '',
     after: '',
     options: {
+      tooltip: {
+        trigger: 'item',
+        formatter: (par) => {
+          const { name, value } = par.data
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
+        }
+      },
+      title: [
+        {
+          text: '',
+          left: '50%',
+          top: '2%',
+          textAlign: 'center',
+          textStyle: {
+            color: '#505050',
+            fontFamily: 'Noto Sans TC',
+            fontWeight: '500',
+          },
+        },
+      ],
       series: [
         {
           type: 'pie',
           radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
-          avoidLabelOverlap: false,
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
             borderWidth: 2
           },
-          data: [
-            { value: 54.4, name: '贊成', itemStyle: { color: '#5470c6' }},
-            { value: 35.2, name: '不贊成', itemStyle: { color: '#91cc75' }},
-            { value: 10.4, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
-          ],
           label: {
             show: true,
             formatter: '{b}\n{c}%',
@@ -413,30 +166,50 @@ const chartData = [
             fontSize: 15,
             position: 'outside',
           },
-        }
-      ]
+          emphasis: {label: { show: true }},
+          data: [
+            { value: 38.3, name: '知道', itemStyle: { color: '#5470c6' }},
+            { value: 61.7, name: '不知道', itemStyle: { color: '#91cc75' }},
+          ]
+        },
+      ],
     }
   },
   {
-    title: '當您在Ａ銀行的帳戶遭到詐騙造成財損，或有涉及詐騙的異常交易情形，目前Ａ銀行受限於個資保護，無法將該訊息同步通知其餘您有開戶的銀行。您是否贊成修改規定，讓Ａ銀行在此情況下能立即通知其他銀行？',
+    title: '承上題，若有需求，請問您願不願意申請？',
     subtitle: '',
-    after: '※逾８成民眾願意有詐騙異常交易情形時，犧牲部分個資保護，授權銀行將訊息通知其他金融機構。且學歷愈高、收入愈高者，贊成比率愈高。',
+    after: '逾70歲長者願意申請比率僅50.2%',
     options: {
+      tooltip: {
+        trigger: 'item',
+        formatter: (par) => {
+          const { name, value } = par.data
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
+        }
+      },
+      title: [
+        {
+          text: '',
+          left: '50%',
+          top: '2%',
+          textAlign: 'center',
+          textStyle: {
+            color: '#505050',
+            fontFamily: 'Noto Sans TC',
+            fontWeight: '500',
+          },
+        },
+      ],
       series: [
         {
           type: 'pie',
           radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
-          avoidLabelOverlap: false,
           itemStyle: {
             borderRadius: 5,
             borderColor: '#fff',
             borderWidth: 2
           },
-          data: [
-            { value: 82.8, name: '贊成', itemStyle: { color: '#5470c6' }},
-            { value: 12.1, name: '不贊成', itemStyle: { color: '#91cc75' }},
-            { value: 12.1, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
-          ],
           label: {
             show: true,
             formatter: '{b}\n{c}%',
@@ -444,8 +217,379 @@ const chartData = [
             fontSize: 15,
             position: 'outside',
           },
+          emphasis: {label: { show: true }},
+          data: [
+            { value: 1.9, name: '已經申請', itemStyle: { color: '#5470c6' }},
+            { value: 69.3, name: '願意申請', itemStyle: { color: '#91cc75' }},
+            { value: 22.1, name: '不願意申請', itemStyle: { color: '#fc8452' }},
+            { value: 6.8, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
+          ]
+        },
+      ],
+    }
+  },
+  {
+    title: '請問您知不知道，台灣有約60%的銀行分行，已開放民眾辦理定期存款註記，當存戶未來要解除定期存款時，銀行可協助通知已註記的聯絡人？',
+    subtitle: '',
+    after: '',
+    options: {
+      tooltip: {
+        trigger: 'item',
+        formatter: (par) => {
+          const { name, value } = par.data
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
         }
-      ]
+      },
+      title: [
+        {
+          text: '',
+          left: '50%',
+          top: '2%',
+          textAlign: 'center',
+          textStyle: {
+            color: '#505050',
+            fontFamily: 'Noto Sans TC',
+            fontWeight: '500',
+          },
+        },
+      ],
+      series: [
+        {
+          type: 'pie',
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
+          itemStyle: {
+            borderRadius: 5,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          label: {
+            show: true,
+            formatter: '{b}\n{c}%',
+            fontWeight: '500',
+            fontSize: 15,
+            position: 'outside',
+          },
+          emphasis: {label: { show: true }},
+          data: [
+            { value: 22.9, name: '知道', itemStyle: { color: '#5470c6' }},
+            { value: 77.1, name: '不知道', itemStyle: { color: '#91cc75' }},
+          ]
+        },
+      ],
+    }
+  },
+  {
+    title: '承上題，若您有定期存款、且開戶的銀行有提供註記服務，您願不願意前往註記？',
+    subtitle: '',
+    after: '逾70歲長者願意註記比率僅42.1%',
+    options: {
+      tooltip: {
+        trigger: 'item',
+        formatter: (par) => {
+          const { name, value } = par.data
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
+        }
+      },
+      title: [
+        {
+          text: '',
+          left: '50%',
+          top: '2%',
+          textAlign: 'center',
+          textStyle: {
+            color: '#505050',
+            fontFamily: 'Noto Sans TC',
+            fontWeight: '500',
+          },
+        },
+      ],
+      series: [
+        {
+          type: 'pie',
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
+          itemStyle: {
+            borderRadius: 5,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          label: {
+            show: true,
+            formatter: '{b}\n{c}%',
+            fontWeight: '500',
+            fontSize: 15,
+            position: 'outside',
+          },
+          emphasis: {label: { show: true }},
+          data: [
+            { value: 0.8, name: '已經註記', itemStyle: { color: '#5470c6' }},
+            { value: 71.4, name: '願意註記', itemStyle: { color: '#91cc75' }},
+            { value: 21.4, name: '不願意註記', itemStyle: { color: '#fc8452' }},
+            { value: 6.8, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
+          ]
+        },
+      ],
+    }
+  },
+  {
+    title: '請問您知不知道，台灣已經有至少十間銀行，開放讓存戶自行設定，未來進行大額轉帳時（如超過100萬元、300萬元），銀行應通知指定的聯絡人？',
+    subtitle: '',
+    after: '',
+    options: {
+      tooltip: {
+        trigger: 'item',
+        formatter: (par) => {
+          const { name, value } = par.data
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
+        }
+      },
+      title: [
+        {
+          text: '',
+          left: '50%',
+          top: '2%',
+          textAlign: 'center',
+          textStyle: {
+            color: '#505050',
+            fontFamily: 'Noto Sans TC',
+            fontWeight: '500',
+          },
+        },
+      ],
+      series: [
+        {
+          type: 'pie',
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
+          itemStyle: {
+            borderRadius: 5,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          label: {
+            show: true,
+            formatter: '{b}\n{c}%',
+            fontWeight: '500',
+            fontSize: 15,
+            position: 'outside',
+          },
+          emphasis: {label: { show: true }},
+          data: [
+            { value: 37, name: '知道', itemStyle: { color: '#5470c6' }},
+            { value: 63, name: '不知道', itemStyle: { color: '#91cc75' }},
+          ]
+        },
+      ],
+    }
+  },
+  {
+    title: '承上題，若您開戶的銀行有提供大額轉帳通知，您願不願意前往設定？',
+    subtitle: '',
+    after: '逾70歲長者願意設定比率僅50.5%',
+    options: {
+      tooltip: {
+        trigger: 'item',
+        formatter: (par) => {
+          const { name, value } = par.data
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
+        }
+      },
+      title: [
+        {
+          text: '',
+          left: '50%',
+          top: '2%',
+          textAlign: 'center',
+          textStyle: {
+            color: '#505050',
+            fontFamily: 'Noto Sans TC',
+            fontWeight: '500',
+          },
+        },
+      ],
+      series: [
+        {
+          type: 'pie',
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
+          itemStyle: {
+            borderRadius: 5,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          label: {
+            show: true,
+            formatter: '{b}\n{c}%',
+            fontWeight: '500',
+            fontSize: 15,
+            position: 'outside',
+          },
+          emphasis: {label: { show: true }},
+          data: [
+            { value: 1.9, name: '已經設定', itemStyle: { color: '#5470c6' }},
+            { value: 74.1, name: '願意設定', itemStyle: { color: '#91cc75' }},
+            { value: 18.4, name: '不願意設定', itemStyle: { color: '#fc8452' }},
+            { value: 5.6, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
+          ]
+        },
+      ],
+    }
+  },
+  {
+    title: '請問您知不知道，為了防堵詐騙，國內十五家壽險公司都可讓民眾進行保單註記，未來當要保人申請保單解約、部分提領或保單借款超出一定金額時，業者可協助通知指定的聯絡人？',
+    subtitle: '',
+    after: '',
+    options: {
+      tooltip: {
+        trigger: 'item',
+        formatter: (par) => {
+          const { name, value } = par.data
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
+        }
+      },
+      title: [
+        {
+          text: '',
+          left: '50%',
+          top: '2%',
+          textAlign: 'center',
+          textStyle: {
+            color: '#505050',
+            fontFamily: 'Noto Sans TC',
+            fontWeight: '500',
+          },
+        },
+      ],
+      series: [
+        {
+          type: 'pie',
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
+          itemStyle: {
+            borderRadius: 5,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          label: {
+            show: true,
+            formatter: '{b}\n{c}%',
+            fontWeight: '500',
+            fontSize: 15,
+            position: 'outside',
+          },
+          emphasis: {label: { show: true }},
+          data: [
+            { value: 27, name: '知道', itemStyle: { color: '#5470c6' }},
+            { value: 73, name: '不知道', itemStyle: { color: '#91cc75' }},
+          ]
+        },
+      ],
+    }
+  },
+  {
+    title: '承上題，若您有保單、且簽約的壽險公司有提供保單註記服務，您願不願意前往註記？',
+    subtitle: '',
+    after: '逾70歲長者願意註記比率僅48.7%',
+    options: {
+      tooltip: {
+        trigger: 'item',
+        formatter: (par) => {
+          const { name, value } = par.data
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
+        }
+      },
+      title: [
+        {
+          text: '',
+          left: '50%',
+          top: '2%',
+          textAlign: 'center',
+          textStyle: {
+            color: '#505050',
+            fontFamily: 'Noto Sans TC',
+            fontWeight: '500',
+          },
+        },
+      ],
+      series: [
+        {
+          type: 'pie',
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
+          itemStyle: {
+            borderRadius: 5,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          label: {
+            show: true,
+            formatter: '{b}\n{c}%',
+            fontWeight: '500',
+            fontSize: 15,
+            position: 'outside',
+          },
+          emphasis: {label: { show: true }},
+          data: [
+            { value: 0.6, name: '已經註記', itemStyle: { color: '#5470c6' }},
+            { value: 72.1, name: '願意註記', itemStyle: { color: '#91cc75' }},
+            { value: 20.2, name: '不願意註記', itemStyle: { color: '#fc8452' }},
+            { value: 7.1, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
+          ]
+        },
+      ],
+    }
+  },
+  {
+    title: '若您開戶的銀行能夠提供更多防詐自主風險管理措施，讓民眾客製化針對自己需求進行相關設定，例如在特定時段關閉轉帳功能、自訂轉帳金額上限，或在特定情況下延遲交易等，會不會提高您使用該銀行服務的意願？',
+    subtitle: '',
+    after: '',
+    options: {
+      tooltip: {
+        trigger: 'item',
+        formatter: (par) => {
+          const { name, value } = par.data
+          const title = `<div class="text-sm tracking-normal break-all whitespace-pre-wrap">${name.replace(/\n/g, '')}</div>`
+          return `${title}<strong class="text-base" style="color: ${par.color}">${value}%</strong>`
+        }
+      },
+      title: [
+        {
+          text: '',
+          left: '50%',
+          top: '2%',
+          textAlign: 'center',
+          textStyle: {
+            color: '#505050',
+            fontFamily: 'Noto Sans TC',
+            fontWeight: '500',
+          },
+        },
+      ],
+      series: [
+        {
+          type: 'pie',
+          radius: isMobile.value ? ['20%', '45%'] : ['35%', '60%'],
+          itemStyle: {
+            borderRadius: 5,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          label: {
+            show: true,
+            formatter: '{b}\n{c}%',
+            fontWeight: '500',
+            fontSize: 15,
+            position: 'outside',
+          },
+          emphasis: {label: { show: true }},
+          data: [
+            { value: 67.7, name: '會', itemStyle: { color: '#5470c6' }},
+            { value: 25, name: '不會', itemStyle: { color: '#91cc75' }},
+            { value: 7.3, name: '無明確意見', itemStyle: { color: '#c3c3c3' }},
+          ]
+        },
+      ],
     }
   },
 ]
