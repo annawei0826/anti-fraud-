@@ -20,8 +20,9 @@ const menu = ref([
     "isAnchor": true
   },
   {
-    "title": "防詐大調查",
-    "url": `${import.meta.env.BASE_URL}#/report`,
+      "title": "防詐大調查",
+    "url": "/report", 
+    "isRouter": true
   },
   // {
   //   "title": "防詐守門員",

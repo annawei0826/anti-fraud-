@@ -7,13 +7,9 @@ import App from './App.vue'
 
 import './assets/css/main.css'
 
-// import { createVfm } from 'vue-final-modal'
-// import 'vue-final-modal/style.css'
-
 // swiper
 import { register } from 'swiper/element/bundle';
 
-// const vfm = createVfm();
 const routes = [
   {
     path: "/",
@@ -36,9 +32,7 @@ const router = createRouter({
   history: createWebHashHistory('/anti-fraud/'),
   routes: routes,
   scrollBehavior(to, from, savedPosition) {
-    if (to.path === '/report') {
-      return { top: 0 }
-    }
+    return false
   },
 })
 const app = createApp(App);

@@ -1,5 +1,16 @@
 <template>
-  <div class="relative">
+  <div class="relative chart-group-wrapper">
+    <div
+      v-if="!isMobile"
+      class="swiper-button-prev fixed-nav-button-left"
+      ref="prevRef"
+    />
+    <div
+      v-if="!isMobile"
+      class="swiper-button-next fixed-nav-button-right"
+      ref="nextRef"
+    />
+
     <div class="swiper" ref="swiperRef">
       <ul class="swiper-wrapper">
         <li
@@ -28,18 +39,6 @@
         </li>
       </ul>
     </div>
-
-    <!-- prev next -->
-    <div
-      v-if="!isMobile"
-      class="swiper-button-prev absolute top-1/2 -translate-y-1/2 -translate-x-full"
-      ref="prevRef"
-    />
-    <div
-      v-if="!isMobile"
-      class="swiper-button-next absolute top-1/2 -translate-y-1/2 translate-x-full"
-      ref="nextRef"
-    />
 
     <!-- pagination -->
     <div v-if="sliderData.length > 1" class="h-8 mt-2 sm:mt-6">
@@ -70,14 +69,11 @@ const props = defineProps({
   },
 })
 
-// watch(props.sliderData, () => {
-//   nextTick(() => swiper.update());
-// })
-
 onMounted(() => {
   // initialize swiper
   swiper = new Swiper(swiperRef.value, {
     autoHeight: true,
+    loop: true,
     pagination: {
       el: paginationRef.value,
       clickable: true
@@ -120,10 +116,29 @@ const setChartHeight = (chartData) => {
 </script>
 
 <style>
-/* swiper reset css */
 .swiper-button-next, .swiper-button-prev {
   color: var(--color-primary);
 }
+
+.chart-group-wrapper {
+  position: relative;
+}
+
+.fixed-nav-button-left,
+.fixed-nav-button-right {
+  position: absolute;
+  top: 250px;
+  z-index: 10;
+}
+
+.fixed-nav-button-left {
+  left: -30px;
+}
+
+.fixed-nav-button-right {
+  right: -30px; 
+}
+
 .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -138,11 +153,5 @@ const setChartHeight = (chartData) => {
 .swiper-pagination-fraction {
   position: relative;
   bottom: 0;
-}
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
-  right: -0.4rem;
-}
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
-  left: -0.4rem;
 }
 </style>
